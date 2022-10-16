@@ -14,12 +14,12 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
 ```python
 mt(amount, ls, rs, wait = True)
 ```
-Controls the drive base given a left motor speed and a right motor speed
+Controls the drive base given a left motor speed and a right motor speed  
 <b>Parameters:</b>  
->amount => Distance in degrees
->ls => Left motor speed
->rs => Right motor speed
->wait => Run motor asynchronously?
+>amount => Distance in degrees  
+>ls => Left motor speed  
+>rs => Right motor speed  
+>wait => Run motor asynchronously?  
 
 ### Attachments
 
