@@ -11,6 +11,10 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
 
 <h4>Move Tank</h4>  
 
+```python
+mt(amount,ls,rs,wait = True)
+```
+
 Controls the drive base given a left motor speed and a right motor speed  
 <b>Parameters:</b>  
 >amount => Distance in degrees  
