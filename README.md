@@ -33,6 +33,14 @@ Starts the drive base motors at a given left motor speed and right motor speed
 >ls => Left motor speed  
 >rs => Right motor speed  
 
+## Stop Tank 
+
+```python
+pt()
+```
+
+Stops the drive base motors
+
 ### Attachments
 
 ### Line Following
