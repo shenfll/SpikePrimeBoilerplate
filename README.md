@@ -9,12 +9,12 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
   
 ### Tank Movement
 
-<h3>Gyro Straight for Rotations</h3>  
+<h4>Move Tank</h4>  
 
 ```python
 mt(amount, ls, rs, wait = True)
 ```
-Drives straight using the gyro on Port.S2  
+Controls the drive base given a left motor speed and a right motor speed
 <b>Parameters:</b>  
 >amount => Distance in degrees
 >ls => Left motor speed
