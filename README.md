@@ -22,6 +22,17 @@ Controls the drive base given a left motor speed and a right motor speed
 >rs => Right motor speed  
 >wait => Run motor asynchronously?  
 
+## Start Tank 
+
+```python
+st(ls,rs)
+```
+
+Starts the drive base motors at a given left motor speed and right motor speed  
+<b>Parameters:</b>  
+>ls => Left motor speed  
+>rs => Right motor speed  
+
 ### Attachments
 
 ### Line Following
