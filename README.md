@@ -9,7 +9,7 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
   
 ### Tank Movement
 
-<h4>Move Tank</h4>  
+## Move Tank 
 
 ```python
 mt(amount,ls,rs,wait = True)
