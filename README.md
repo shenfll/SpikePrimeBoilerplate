@@ -12,7 +12,7 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
 ## Move Tank 
 
 ```python
-mt(amount,ls,rs,wait = True)
+mt(amount, ls, rs, wait = True)
 ```
 
 Controls the drive base given a left motor speed and a right motor speed  
@@ -25,7 +25,7 @@ Controls the drive base given a left motor speed and a right motor speed
 ## Start Tank 
 
 ```python
-st(ls,rs)
+st(ls, rs)
 ```
 
 Starts the drive base motors at a given left motor speed and right motor speed  
