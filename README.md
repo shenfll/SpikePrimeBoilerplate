@@ -39,6 +39,15 @@ Starts the drive base motors at a given left motor speed and right motor speed
 pt()
 ```
 
+### Reset Tank
+
+```python
+rt()
+```
+
+Resets the drive direction to 0  
+
+
 Stops the drive base motors
 
 ## Attachments
