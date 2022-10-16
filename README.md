@@ -7,10 +7,22 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
   - [Line Following](#line-following)
   - [Gyro Sensor](#gyro-sensor)
   
-###Tank Movement
+### Tank Movement
 
-###Attachments
+<h3>Gyro Straight for Rotations</h3>  
 
-###Line Following
+```python
+mt(amount, ls, rs, wait = True)
+```
+Drives straight using the gyro on Port.S2  
+<b>Parameters:</b>  
+>amount => Distance in degrees
+>ls => Left motor speed
+>rs => Right motor speed
+>wait => Run motor asynchronously?
 
-###Gyro Sensor
+### Attachments
+
+### Line Following
+
+### Gyro Sensor
