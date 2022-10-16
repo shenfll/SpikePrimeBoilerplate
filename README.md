@@ -7,9 +7,9 @@ A collection of a few useful functions and tools for FLL teams using the Spike P
   - [Line Following](#line-following)
   - [Gyro Sensor](#gyro-sensor)
   
-### Tank Movement
+# Tank Movement
 
-## Move Tank 
+### Move Tank 
 
 ```python
 mt(amount, ls, rs, wait = True)
@@ -22,7 +22,7 @@ Controls the drive base given a left motor speed and a right motor speed
 >rs => Right motor speed  
 >wait => Run motor asynchronously?  
 
-## Start Tank 
+### Start Tank 
 
 ```python
 st(ls, rs)
@@ -33,7 +33,7 @@ Starts the drive base motors at a given left motor speed and right motor speed
 >ls => Left motor speed  
 >rs => Right motor speed  
 
-## Stop Tank 
+### Stop Tank 
 
 ```python
 pt()
@@ -41,8 +41,8 @@ pt()
 
 Stops the drive base motors
 
-### Attachments
+## Attachments
 
-### Line Following
+## Line Following
 
-### Gyro Sensor
+## Gyro Sensor
