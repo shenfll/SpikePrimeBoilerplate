@@ -1,5 +1,5 @@
 # SpikePrimeBoilerplate
-A collection of a few useful functions and tools for FLL teams using the Spike Prime.
+A collection of a few useful functions and tools for FLL teams using the Spike Prime created by FLL team #3249 with the help of FRC team #20 member Gabe West.
   
 # Index
   - [Tank Movement](#tank-movement)
