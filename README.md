@@ -52,7 +52,7 @@ Resets the drive motors to 0
 ```python
 gd()
 ```
-Returns the average distance traveled by the 2 drive motors
+Returns the average distance traveled by the 2 drive motors  
 
 
 ## Attachments
@@ -73,13 +73,13 @@ Moves an attachment a given amount
 >ml => Port letter of motor  
 >amount => Distance in degrees  
 >ms => Motor speed
->wait => Wait until complete to resume flow of code?
+>wait => Wait until complete to resume flow of code?  
 
 ### Start Attachment
 ```python
 ma(ml, ms)
 ```
-Starts an attachment at a given speed
+Starts an attachment at a given speed  
 <b>Parameters:</b>  
 >ml => Port letter of motor  
 >ms => Motor speed
@@ -89,7 +89,7 @@ Starts an attachment at a given speed
 ```python
 pa(ml)
 ```
-Breaks a given attachment motor
+Breaks a given attachment motor  
 <b>Parameters:</b>  
 >ml => Port letter of motor  
 
@@ -98,7 +98,7 @@ Breaks a given attachment motor
 ```python
 mas(amount, ls, rs, wait = True)
 ```
-Breaks a given attachment motor
+Breaks a given attachment motor  
 <b>Parameters:</b>  
 >amount=> Distance in degrees
 >ls=> Left motor speed
@@ -156,7 +156,7 @@ Calibrates the gyro
 ```python
 gf(amount, ts, ac, ang, dn)
 ```
-Uses the gyro to go in a straight line
+Uses the gyro to go in a straight line  
 <b>Parameters:</b>  
 >amount=> Distance in degrees
 >ts=> Speed
@@ -168,7 +168,7 @@ Uses the gyro to go in a straight line
 ```python
 gt(ang)
 ```
-Uses the gyro to turn to a specific angle
+Uses the gyro to turn to a specific angle  
 <b>Parameters:</b>  
 >ang=> The angle to turn to
 
@@ -179,7 +179,7 @@ Uses the gyro to turn to a specific angle
 ```python
 wt(ms)
 ```
-Waits for a given amount of milliseconds
+Waits for a given amount of milliseconds  
 <b>Parameters:</b>  
 >ms  => The amount of time to wait in milliseconds
 
@@ -187,7 +187,7 @@ Waits for a given amount of milliseconds
 ```python
 sound(sn)
 ```
-Plays a sound on the brick
+Plays a sound on the brick  
 <b>Parameters:</b>  
 >sn  => Index of sound file in the sounds folder
 
@@ -196,7 +196,7 @@ Plays a sound on the brick
 ```python
 led(n)
 ```
-Plays a sound on the brick
+Plays a sound on the brick  
 <b>Parameters:</b>  
 >n=> color  
 >
