@@ -51,6 +51,27 @@ Resets the drive direction to 0
 
 ## Attachments
 
+### Reset Attachments 
+
+```python
+ra()
+```
+
+### Move Attachment
+
+```python
+ma(ml,amount,ms,wait = True)
+```
+
+Starts the drive base motors at a given left motor speed and right motor speed  
+<b>Parameters:</b>  
+>ml => Port letter of motor  
+>amount => Distance in degrees  
+>ms => Motor speed
+>wait => Run attachment motor asynchronously?  
+
+Moves a specific attachment motor a given amound
+
 ## Line Following
 
 ## Gyro Sensor
